@@ -1,0 +1,15 @@
+notfound.txt
+oops.txt
+smalldict1.txt
+code
+data
+ghost
+boo
+marty
+keith
+kitty
+kitty
+dog
+cat
+
+
