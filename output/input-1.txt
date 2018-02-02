@@ -1,0 +1,18 @@
+foobar.txt
+unknown.doc
+this file does not exist LOLOLOL
+simple.txt
+t
+t
+t
+q
+y
+seeds.txt
+t
+t
+q
+n
+
+
+
+
