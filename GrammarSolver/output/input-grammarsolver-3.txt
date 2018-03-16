@@ -1,0 +1,15 @@
+expression.txt
+F2
+5
+OP
+4
+T
+6
+E
+8
+E
+2
+
+0
+
+n
