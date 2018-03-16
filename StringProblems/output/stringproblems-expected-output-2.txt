@@ -1,0 +1,25 @@
+Welcome to CS 106B/X String Problems!
+
+r)everse l)ettersOnly p)rintBinary c)ontains q)uit? l
+String to process? 'I think, therefore I am!'
+Returned: "IthinkthereforeIam" (length 18)
+
+r)everse l)ettersOnly p)rintBinary c)ontains q)uit? l
+String to process? {[[Friends, save $$$ with 'Geico'!!]]}
+Returned: "FriendssavewithGeico" (length 20)
+
+r)everse l)ettersOnly p)rintBinary c)ontains q)uit? l
+String to process? Stanford
+Returned: "Stanford" (length 8)
+
+r)everse l)ettersOnly p)rintBinary c)ontains q)uit? l
+String to process? {}{}$$$$
+Returned: "" (length 0)
+
+r)everse l)ettersOnly p)rintBinary c)ontains q)uit? l
+String to process? 
+Returned: "" (length 0)
+
+r)everse l)ettersOnly p)rintBinary c)ontains q)uit? q
+
+Have a nice day!

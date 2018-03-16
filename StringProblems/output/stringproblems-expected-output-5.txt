@@ -1,0 +1,22 @@
+Welcome to CS 106B/X String Problems!
+
+r)everse l)ettersOnly p)rintBinary c)ontains q)uit? r
+String to reverse? Hello, World!
+Returned: "!dlroW ,olleH" (length 13)
+
+r)everse l)ettersOnly p)rintBinary c)ontains q)uit? l
+String to process? {[[Friends, save $$$ with 'Geico'!!]]}
+Returned: "FriendssavewithGeico" (length 20)
+
+r)everse l)ettersOnly p)rintBinary c)ontains q)uit? p
+Number to convert to binary? 43
+43 in binary is: 101011
+
+r)everse l)ettersOnly p)rintBinary c)ontains q)uit? c
+String 1 (haystack)? Marty
+String 2 (needle)  ? art
+Returned: true
+
+r)everse l)ettersOnly p)rintBinary c)ontains q)uit? q
+
+Have a nice day!

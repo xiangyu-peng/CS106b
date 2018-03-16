@@ -1,0 +1,60 @@
+Welcome to CS 106B/X String Problems!
+
+r)everse l)ettersOnly p)rintBinary c)ontains q)uit? c
+String 1 (haystack)? Marty
+String 2 (needle)  ? art
+Returned: true
+
+r)everse l)ettersOnly p)rintBinary c)ontains q)uit? c
+String 1 (haystack)? Computer Science
+String 2 (needle)  ? COMP
+Returned: true
+
+r)everse l)ettersOnly p)rintBinary c)ontains q)uit? c
+String 1 (haystack)? Marketing
+String 2 (needle)  ? Ting
+Returned: true
+
+r)everse l)ettersOnly p)rintBinary c)ontains q)uit? c
+String 1 (haystack)? Stanford
+String 2 (needle)  ? TAN
+Returned: true
+
+r)everse l)ettersOnly p)rintBinary c)ontains q)uit? c
+String 1 (haystack)? computer
+String 2 (needle)  ? computer
+Returned: true
+
+r)everse l)ettersOnly p)rintBinary c)ontains q)uit? c
+String 1 (haystack)? rainbow
+String 2 (needle)  ? brain
+Returned: false
+
+r)everse l)ettersOnly p)rintBinary c)ontains q)uit? c
+String 1 (haystack)? Smith
+String 2 (needle)  ? Smithsonian
+Returned: false
+
+r)everse l)ettersOnly p)rintBinary c)ontains q)uit? c
+String 1 (haystack)? 
+String 2 (needle)  ? hat
+Returned: false
+
+r)everse l)ettersOnly p)rintBinary c)ontains q)uit? c
+String 1 (haystack)? hat
+String 2 (needle)  ? 
+Returned: true
+
+r)everse l)ettersOnly p)rintBinary c)ontains q)uit? c
+String 1 (haystack)? X
+String 2 (needle)  ? X
+Returned: true
+
+r)everse l)ettersOnly p)rintBinary c)ontains q)uit? c
+String 1 (haystack)? 
+String 2 (needle)  ? 
+Returned: true
+
+r)everse l)ettersOnly p)rintBinary c)ontains q)uit? q
+
+Have a nice day!
