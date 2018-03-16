@@ -1,0 +1,197 @@
+Welcome to CS 106B/X Shrink-It!
+This program uses the Huffman coding algorithm for compression.
+Any file can be compressed by this method, often with substantial
+savings. Decompression will faithfully reproduce the original.
+
+B)uild enc.tree   C)ompress     VB) View binary
+E)ncode data      U)ncompress   VT) View text
+D)ecode data      F)ree tree    VS) View side-by-side
+Q)uit
+
+Your choice? c
+Input file name: hamlet.txt
+Output file name (Enter for hamlet.huf): 
+Reading 191734 uncompressed bytes.
+Compressing ...
+Wrote 106020 compressed bytes.
+
+B)uild enc.tree   C)ompress     VB) View binary
+E)ncode data      U)ncompress   VT) View text
+D)ecode data      F)ree tree    VS) View side-by-side
+Q)uit
+
+Your choice? u
+Input file name: hamlet.huf
+Output file name (Enter for hamlet-out.txt): hamlet-out.txt
+Reading 106020 compressed bytes.
+Decompressing ...
+Wrote 191734 decompressed bytes.
+
+B)uild enc.tree   C)ompress     VB) View binary
+E)ncode data      U)ncompress   VT) View text
+D)ecode data      F)ree tree    VS) View side-by-side
+Q)uit
+
+Your choice? vs
+First file name: hamlet.txt
+Second file name: hamlet-out.txt
+Files match!
+
+B)uild enc.tree   C)ompress     VB) View binary
+E)ncode data      U)ncompress   VT) View text
+D)ecode data      F)ree tree    VS) View side-by-side
+Q)uit
+
+Your choice? b
+Read from a s)tring or f)ile? f
+File name to process: hamlet.txt
+Building encoding tree ...
+          {'s' (115), count=8126}
+        {NOT, count=16243}
+          {'n' (110), count=8117}
+      {NOT, count=31739}
+          {'h' (104), count=7839}
+        {NOT, count=15496}
+          {'i' (105), count=7657}
+    {NOT, count=61684}
+          {'r' (114), count=7638}
+        {NOT, count=15223}
+            {'m' (109), count=4001}
+          {NOT, count=7585}
+                    {'P' (80), count=236}
+                  {NOT, count=460}
+                      {']' (93), count=112}
+                    {NOT, count=224}
+                      {'Q' (81), count=112}
+                {NOT, count=912}
+                  {'?' (63), count=452}
+              {NOT, count=1804}
+                {'H' (72), count=892}
+            {NOT, count=3584}
+              {'p' (112), count=1780}
+      {NOT, count=29945}
+        {'e' (101), count=14722}
+  {NOT, count=109560}
+    {' ' (32), count=47876}
+{NOT, count=191735}
+                {'I' (73), count=854}
+              {NOT, count=1706}
+                  {';' (59), count=442}
+                {NOT, count=852}
+                      {'q' (113), count=108}
+                    {NOT, count=209}
+                      {'j' (106), count=101}
+                  {NOT, count=410}
+                    {'F' (70), count=201}
+            {NOT, count=3274}
+              {'b' (98), count=1568}
+          {NOT, count=6407}
+            {'.' (46), count=3133}
+        {NOT, count=12482}
+            {'y' (121), count=3074}
+          {NOT, count=6075}
+            {',' (44), count=3001}
+      {NOT, count=23614}
+          {'l' (108), count=5598}
+        {NOT, count=11132}
+                {'T' (84), count=790}
+              {NOT, count=1539}
+                  {'O' (79), count=376}
+                {NOT, count=749}
+                  {'!' (33), count=373}
+            {NOT, count=2887}
+                    {'N' (78), count=180}
+                  {NOT, count=360}
+                    {'K' (75), count=180}
+                {NOT, count=715}
+                    {'x' (120), count=179}
+                  {NOT, count=355}
+                    {'C' (67), count=176}
+              {NOT, count=1348}
+                {'A' (65), count=633}
+          {NOT, count=5534}
+            {'w' (119), count=2647}
+    {NOT, count=45529}
+        {'t' (116), count=11073}
+      {NOT, count=21915}
+        {'o' (111), count=10842}
+  {NOT, count=82175}
+            {'f' (102), count=2497}
+          {NOT, count=4927}
+            {'c' (99), count=2430}
+        {NOT, count=9820}
+          {'d' (100), count=4893}
+      {NOT, count=19137}
+        {'a' (97), count=9317}
+    {NOT, count=36646}
+              {''' (39), count=1202}
+            {NOT, count=2391}
+              {'v' (118), count=1189}
+          {NOT, count=4603}
+                        {'(' (40), count=44}
+                      {NOT, count=87}
+                        {')' (41), count=43}
+                    {NOT, count=159}
+                      {'z' (122), count=72}
+                  {NOT, count=298}
+                    {'R' (82), count=139}
+                {NOT, count=596}
+                  {'-' (45), count=298}
+              {NOT, count=1120}
+                    {'D' (68), count=132}
+                  {NOT, count=262}
+                    {'Y' (89), count=130}
+                {NOT, count=524}
+                  {'B' (66), count=262}
+            {NOT, count=2212}
+              {'k' (107), count=1092}
+        {NOT, count=9066}
+          {'\n' (10), count=4463}
+      {NOT, count=17509}
+          {'u' (117), count=4307}
+        {NOT, count=8443}
+            {'g' (103), count=2170}
+          {NOT, count=4136}
+                  {'S' (83), count=253}
+                {NOT, count=505}
+                  {'M' (77), count=252}
+              {NOT, count=1004}
+                  {'G' (71), count=250}
+                {NOT, count=499}
+                  {'L' (76), count=249}
+            {NOT, count=1966}
+                {'W' (87), count=485}
+              {NOT, count=962}
+                        {'U' (85), count=36}
+                      {NOT, count=69}
+                        {'V' (86), count=33}
+                    {NOT, count=123}
+                        {':' (58), count=32}
+                      {NOT, count=54}
+                            {'1' (49), count=7}
+                          {NOT, count=13}
+                                  {'4' (52), count=1}
+                                {NOT, count=2}
+                                  {'0' (48), count=1}
+                              {NOT, count=4}
+                                  {'&' (38), count=1}
+                                {NOT, count=2}
+                                  {'"' (34), count=1}
+                            {NOT, count=6}
+                                {EOF (256), count=1}
+                              {NOT, count=2}
+                                {'6' (54), count=1}
+                        {NOT, count=22}
+                          {'J' (74), count=9}
+                  {NOT, count=239}
+                    {'[' (91), count=116}
+                {NOT, count=477}
+                  {'E' (69), count=238}
+
+B)uild enc.tree   C)ompress     VB) View binary
+E)ncode data      U)ncompress   VT) View text
+D)ecode data      F)ree tree    VS) View side-by-side
+Q)uit
+
+Your choice? q
+Exiting.

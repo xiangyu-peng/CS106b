@@ -1,0 +1,13 @@
+c
+hamlet.txt
+
+u
+hamlet.huf
+hamlet-out.txt
+vs
+hamlet.txt
+hamlet-out.txt
+b
+f
+hamlet.txt
+q

@@ -1,0 +1,108 @@
+Welcome to CS 106B/X Shrink-It!
+This program uses the Huffman coding algorithm for compression.
+Any file can be compressed by this method, often with substantial
+savings. Decompression will faithfully reproduce the original.
+
+B)uild enc.tree   C)ompress     VB) View binary
+E)ncode data      U)ncompress   VT) View text
+D)ecode data      F)ree tree    VS) View side-by-side
+Q)uit
+
+Your choice? b
+Read from a s)tring or f)ile? f
+File name to process: short.txt
+Building encoding tree ...
+      {' ' (32), count=22}
+    {NOT, count=43}
+          {'c' (99), count=6}
+        {NOT, count=11}
+            {'f' (102), count=3}
+          {NOT, count=5}
+              {'w' (119), count=1}
+            {NOT, count=2}
+              {'m' (109), count=1}
+      {NOT, count=21}
+        {'t' (116), count=10}
+  {NOT, count=79}
+        {'s' (115), count=10}
+      {NOT, count=20}
+        {'o' (111), count=10}
+    {NOT, count=36}
+          {'d' (100), count=5}
+        {NOT, count=9}
+          {'p' (112), count=4}
+      {NOT, count=16}
+          {'h' (104), count=4}
+        {NOT, count=7}
+            {'\n' (10), count=2}
+          {NOT, count=3}
+            {EOF (256), count=1}
+{NOT, count=132}
+      {'e' (101), count=15}
+    {NOT, count=29}
+        {'r' (114), count=7}
+      {NOT, count=14}
+        {'a' (97), count=7}
+  {NOT, count=53}
+          {'y' (121), count=3}
+        {NOT, count=6}
+          {'u' (117), count=3}
+      {NOT, count=12}
+        {'n' (110), count=6}
+    {NOT, count=24}
+        {'l' (108), count=6}
+      {NOT, count=12}
+        {'i' (105), count=6}
+
+B)uild enc.tree   C)ompress     VB) View binary
+E)ncode data      U)ncompress   VT) View text
+D)ecode data      F)ree tree    VS) View side-by-side
+Q)uit
+
+Your choice? e
+Reuse your previous string/file data for encoding? y
+Encoding data ...
+Here is the binary encoded data (67 bytes):
+11001000 10000101 11110000 10111110 10011110 11100011 01001011 10011100 
+00001010 01000110 11001111 10101000 00001011 11111011 10101101 00010010 
+10101011 01110011 11101100 10110000 00010101 10001001 11111101 01101011 
+11101110 01001001 10110111 01111101 00001010 01111100 01101011 01001011 
+01011101 10100101 10111110 00101111 00110001 10101101 11000010 10000101 
+00111110 11001010 01111110 10110101 11100010 00000100 11111110 11100010 
+10001010 10011011 11000110 10110111 11110010 10111100 01011000 11001011 
+10011110 10001101 11110001 11011110 01110011 11010001 10010111 11101110 
+10100110 11100001 10000000 
+
+B)uild enc.tree   C)ompress     VB) View binary
+E)ncode data      U)ncompress   VT) View text
+D)ecode data      F)ree tree    VS) View side-by-side
+Q)uit
+
+Your choice? d
+Read from a s)tring or f)ile? s
+Type the string to process: 100010110001000110101111100100010110101011100000
+Decoding data ...
+Here is the decoded data (11 bytes):
+hello there
+
+B)uild enc.tree   C)ompress     VB) View binary
+E)ncode data      U)ncompress   VT) View text
+D)ecode data      F)ree tree    VS) View side-by-side
+Q)uit
+
+Your choice? d
+Read from a s)tring or f)ile? s
+Type the string to process: 11001000100001011111000010111110100111101110001101001011100111000000101001000110110011111010100000001011111110111010110100010010101010110111001111101100101100000001010110001001111111010110101111101110010010011011011101111101000010100111110001101011010010110101110110100101101111100010111100110001101011011100001010000101001111101100101001111110101101011110001000000100111111101110001010001010100110111100011010110111111100101011110001011000110010111001111010001101111100011101111001110011110100011001011111101110101001101110000110000000
+Decoding data ...
+Here is the decoded data (131 bytes):
+this is a short input file composed entirely of spaces and lowercase letters
+and end of line characters to help you test your code
+
+
+B)uild enc.tree   C)ompress     VB) View binary
+E)ncode data      U)ncompress   VT) View text
+D)ecode data      F)ree tree    VS) View side-by-side
+Q)uit
+
+Your choice? q
+Exiting.

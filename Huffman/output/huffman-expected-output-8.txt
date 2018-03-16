@@ -1,0 +1,78 @@
+Welcome to CS 106B/X Shrink-It!
+This program uses the Huffman coding algorithm for compression.
+Any file can be compressed by this method, often with substantial
+savings. Decompression will faithfully reproduce the original.
+
+B)uild enc.tree   C)ompress     VB) View binary
+E)ncode data      U)ncompress   VT) View text
+D)ecode data      F)ree tree    VS) View side-by-side
+Q)uit
+
+Your choice? b
+Read from a s)tring or f)ile? f
+File name to process: empty.txt
+Building encoding tree ...
+{EOF (256), count=1}
+
+B)uild enc.tree   C)ompress     VB) View binary
+E)ncode data      U)ncompress   VT) View text
+D)ecode data      F)ree tree    VS) View side-by-side
+Q)uit
+
+Your choice? e
+Reuse your previous string/file data for encoding? y
+Encoding data ...
+Here is the binary encoded data (0 bytes):
+
+
+B)uild enc.tree   C)ompress     VB) View binary
+E)ncode data      U)ncompress   VT) View text
+D)ecode data      F)ree tree    VS) View side-by-side
+Q)uit
+
+Your choice? c
+Input file name: empty.txt
+Output file name (Enter for empty.huf): empty.huf
+Reading 0 uncompressed bytes.
+Compressing ...
+Wrote 7 compressed bytes.
+
+B)uild enc.tree   C)ompress     VB) View binary
+E)ncode data      U)ncompress   VT) View text
+D)ecode data      F)ree tree    VS) View side-by-side
+Q)uit
+
+Your choice? vb
+File name to display: empty.huf
+Here is the binary encoded data (7 bytes):
+11011110 01001100 10101100 01101100 01011100 10001100 10111110 
+
+B)uild enc.tree   C)ompress     VB) View binary
+E)ncode data      U)ncompress   VT) View text
+D)ecode data      F)ree tree    VS) View side-by-side
+Q)uit
+
+Your choice? u
+Input file name: empty.huf
+Output file name (Enter for empty-out.txt): empty-out.txt
+Reading 7 compressed bytes.
+Decompressing ...
+Wrote 0 decompressed bytes.
+
+B)uild enc.tree   C)ompress     VB) View binary
+E)ncode data      U)ncompress   VT) View text
+D)ecode data      F)ree tree    VS) View side-by-side
+Q)uit
+
+Your choice? vt
+File name to display: empty-out.txt
+Here is the text data (0 bytes):
+
+
+B)uild enc.tree   C)ompress     VB) View binary
+E)ncode data      U)ncompress   VT) View text
+D)ecode data      F)ree tree    VS) View side-by-side
+Q)uit
+
+Your choice? q
+Exiting.

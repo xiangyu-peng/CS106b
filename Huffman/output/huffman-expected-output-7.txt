@@ -1,0 +1,637 @@
+Welcome to CS 106B/X Shrink-It!
+This program uses the Huffman coding algorithm for compression.
+Any file can be compressed by this method, often with substantial
+savings. Decompression will faithfully reproduce the original.
+
+B)uild enc.tree   C)ompress     VB) View binary
+E)ncode data      U)ncompress   VT) View text
+D)ecode data      F)ree tree    VS) View side-by-side
+Q)uit
+
+Your choice? c
+Input file name: hellokitty.bmp
+Output file name (Enter for hellokitty.huf): 
+Reading 1470054 uncompressed bytes.
+Compressing ...
+Wrote 415668 compressed bytes.
+
+B)uild enc.tree   C)ompress     VB) View binary
+E)ncode data      U)ncompress   VT) View text
+D)ecode data      F)ree tree    VS) View side-by-side
+Q)uit
+
+Your choice? u
+Input file name: hellokitty.huf
+Output file name (Enter for hellokitty-out.txt): hellokitty-out.bmp
+Reading 415668 compressed bytes.
+Decompressing ...
+Wrote 1470054 decompressed bytes.
+
+B)uild enc.tree   C)ompress     VB) View binary
+E)ncode data      U)ncompress   VT) View text
+D)ecode data      F)ree tree    VS) View side-by-side
+Q)uit
+
+Your choice? vs
+First file name: hellokitty.bmp
+Second file name: hellokitty-out.bmp
+Files match!
+
+B)uild enc.tree   C)ompress     VB) View binary
+E)ncode data      U)ncompress   VT) View text
+D)ecode data      F)ree tree    VS) View side-by-side
+Q)uit
+
+Your choice? c
+Input file name: moo.wav
+Output file name (Enter for moo.huf): 
+Reading 65580 uncompressed bytes.
+Compressing ...
+Wrote 21720 compressed bytes.
+
+B)uild enc.tree   C)ompress     VB) View binary
+E)ncode data      U)ncompress   VT) View text
+D)ecode data      F)ree tree    VS) View side-by-side
+Q)uit
+
+Your choice? u
+Input file name: moo.huf
+Output file name (Enter for moo-out.txt): moo-out.wav
+Reading 21720 compressed bytes.
+Decompressing ...
+Wrote 65580 decompressed bytes.
+
+B)uild enc.tree   C)ompress     VB) View binary
+E)ncode data      U)ncompress   VT) View text
+D)ecode data      F)ree tree    VS) View side-by-side
+Q)uit
+
+Your choice? vs
+First file name: moo.wav
+Second file name: moo-out.wav
+Files match!
+
+B)uild enc.tree   C)ompress     VB) View binary
+E)ncode data      U)ncompress   VT) View text
+D)ecode data      F)ree tree    VS) View side-by-side
+Q)uit
+
+Your choice? c
+Input file name: bender.jpg
+Output file name (Enter for bender.huf): 
+Reading 52404 uncompressed bytes.
+Compressing ...
+Wrote 52434 compressed bytes.
+
+B)uild enc.tree   C)ompress     VB) View binary
+E)ncode data      U)ncompress   VT) View text
+D)ecode data      F)ree tree    VS) View side-by-side
+Q)uit
+
+Your choice? u
+Input file name: bender.huf
+Output file name (Enter for bender-out.txt): bender-out.jpg
+Reading 52434 compressed bytes.
+Decompressing ...
+Wrote 52404 decompressed bytes.
+
+B)uild enc.tree   C)ompress     VB) View binary
+E)ncode data      U)ncompress   VT) View text
+D)ecode data      F)ree tree    VS) View side-by-side
+Q)uit
+
+Your choice? vs
+First file name: bender.jpg
+Second file name: bender-out.jpg
+Files match!
+
+B)uild enc.tree   C)ompress     VB) View binary
+E)ncode data      U)ncompress   VT) View text
+D)ecode data      F)ree tree    VS) View side-by-side
+Q)uit
+
+Your choice? b
+Read from a s)tring or f)ile? f
+File name to process: bender.jpg
+Building encoding tree ...
+                  {??? (182), count=150}
+                {NOT, count=300}
+                  {??? (177), count=150}
+              {NOT, count=600}
+                  {??? (172), count=150}
+                {NOT, count=300}
+                  {??? (164), count=150}
+            {NOT, count=1197}
+                  {';' (59), count=150}
+                {NOT, count=300}
+                  {'\r' (13), count=150}
+              {NOT, count=597}
+                {'?' (63), count=297}
+          {NOT, count=2378}
+                  {??? (187), count=148}
+                {NOT, count=296}
+                  {??? (165), count=148}
+              {NOT, count=592}
+                {??? (127), count=296}
+            {NOT, count=1181}
+                  {'t' (116), count=148}
+                {NOT, count=295}
+                  {??? (205), count=147}
+              {NOT, count=589}
+                  {??? (155), count=147}
+                {NOT, count=294}
+                  {??? (19), count=147}
+        {NOT, count=4681}
+                  {??? (146), count=146}
+                {NOT, count=292}
+                  {??? (134), count=146}
+              {NOT, count=583}
+                  {'Y' (89), count=146}
+                {NOT, count=291}
+                  {??? (220), count=145}
+            {NOT, count=1161}
+                  {??? (208), count=145}
+                {NOT, count=290}
+                  {??? (137), count=145}
+              {NOT, count=578}
+                  {??? (219), count=144}
+                {NOT, count=288}
+                  {??? (203), count=144}
+          {NOT, count=2303}
+                  {??? (169), count=144}
+                {NOT, count=288}
+                  {'M' (77), count=144}
+              {NOT, count=574}
+                  {??? (147), count=143}
+                {NOT, count=286}
+                  {'H' (72), count=143}
+            {NOT, count=1142}
+                  {??? (242), count=142}
+                {NOT, count=284}
+                  {'n' (110), count=142}
+              {NOT, count=568}
+                  {'.' (46), count=142}
+                {NOT, count=284}
+                  {??? (18), count=142}
+      {NOT, count=9098}
+            {'Q' (81), count=1138}
+          {NOT, count=2253}
+                {??? (226), count=283}
+              {NOT, count=563}
+                  {??? (150), count=141}
+                {NOT, count=280}
+                  {??? (192), count=139}
+            {NOT, count=1115}
+                  {'h' (104), count=139}
+                {NOT, count=277}
+                  {??? (236), count=138}
+              {NOT, count=552}
+                  {'S' (83), count=138}
+                {NOT, count=275}
+                  {??? (178), count=137}
+        {NOT, count=4417}
+                  {??? (166), count=137}
+                {NOT, count=274}
+                  {'r' (114), count=137}
+              {NOT, count=547}
+                  {'U' (85), count=137}
+                {NOT, count=273}
+                  {??? (206), count=136}
+            {NOT, count=1090}
+                  {'q' (113), count=136}
+                {NOT, count=272}
+                  {'\' (92), count=136}
+              {NOT, count=543}
+                  {'6' (54), count=136}
+                {NOT, count=271}
+                  {??? (230), count=135}
+          {NOT, count=2164}
+            {??? (162), count=1074}
+    {NOT, count=17196}
+                  {'*' (42), count=135}
+                {NOT, count=269}
+                  {'1' (49), count=134}
+              {NOT, count=537}
+                  {??? (25), count=134}
+                {NOT, count=268}
+                  {??? (24), count=134}
+            {NOT, count=1071}
+                  {??? (11), count=134}
+                {NOT, count=267}
+                  {'e' (101), count=133}
+              {NOT, count=534}
+                {??? (31), count=267}
+          {NOT, count=2128}
+                  {'C' (67), count=133}
+                {NOT, count=266}
+                  {??? (22), count=133}
+              {NOT, count=531}
+                  {??? (14), count=133}
+                {NOT, count=265}
+                  {??? (217), count=132}
+            {NOT, count=1057}
+                  {??? (168), count=132}
+                {NOT, count=264}
+                  {'X' (88), count=132}
+              {NOT, count=526}
+                  {??? (193), count=131}
+                {NOT, count=262}
+                  {??? (161), count=131}
+        {NOT, count=4185}
+                  {??? (136), count=131}
+                {NOT, count=262}
+                  {'A' (65), count=131}
+              {NOT, count=522}
+                  {'3' (51), count=130}
+                {NOT, count=260}
+                  {'2' (50), count=130}
+            {NOT, count=1039}
+                {??? (143), count=259}
+              {NOT, count=517}
+                  {??? (130), count=129}
+                {NOT, count=258}
+                  {'F' (70), count=129}
+          {NOT, count=2057}
+                  {??? (228), count=128}
+                {NOT, count=256}
+                  {??? (201), count=128}
+              {NOT, count=511}
+                  {??? (28), count=128}
+                {NOT, count=255}
+                  {??? (170), count=127}
+            {NOT, count=1018}
+                {??? (159), count=254}
+              {NOT, count=507}
+                  {' ' (32), count=127}
+                {NOT, count=253}
+                  {??? (202), count=126}
+      {NOT, count=8098}
+                {??? (30), count=252}
+              {NOT, count=503}
+                {??? (225), count=251}
+            {NOT, count=1001}
+              {??? (160), count=498}
+          {NOT, count=1991}
+                  {'N' (78), count=126}
+                {NOT, count=250}
+                  {??? (200), count=124}
+              {NOT, count=497}
+                  {'a' (97), count=124}
+                {NOT, count=247}
+                  {??? (249), count=123}
+            {NOT, count=990}
+                {??? (175), count=247}
+              {NOT, count=493}
+                  {'R' (82), count=123}
+                {NOT, count=246}
+                  {'9' (57), count=123}
+        {NOT, count=3913}
+          {'\0' (0), count=1922}
+  {NOT, count=30820}
+                  {??? (4), count=123}
+                {NOT, count=244}
+                  {'d' (100), count=121}
+              {NOT, count=484}
+                  {'\f' (12), count=120}
+                {NOT, count=240}
+                  {'\b' (8), count=120}
+            {NOT, count=957}
+                  {??? (216), count=119}
+                {NOT, count=237}
+                  {'l' (108), count=118}
+              {NOT, count=473}
+                {'|' (124), count=236}
+          {NOT, count=1893}
+                {'x' (120), count=236}
+              {NOT, count=471}
+                  {'&' (38), count=118}
+                {NOT, count=235}
+                  {??? (6), count=117}
+            {NOT, count=936}
+                {'O' (79), count=233}
+              {NOT, count=465}
+                  {??? (229), count=116}
+                {NOT, count=232}
+                  {??? (204), count=116}
+        {NOT, count=3734}
+              {??? (2), count=463}
+            {NOT, count=925}
+                  {??? (153), count=116}
+                {NOT, count=232}
+                  {'\t' (9), count=116}
+              {NOT, count=462}
+                  {??? (129), count=115}
+                {NOT, count=230}
+                  {',' (44), count=115}
+          {NOT, count=1841}
+              {??? (1), count=462}
+            {NOT, count=916}
+                {'W' (87), count=228}
+              {NOT, count=454}
+                {'+' (43), count=226}
+      {NOT, count=7209}
+                  {??? (132), count=113}
+                {NOT, count=224}
+                  {??? (148), count=111}
+              {NOT, count=445}
+                {??? (174), count=221}
+            {NOT, count=886}
+                {'k' (107), count=221}
+              {NOT, count=441}
+                  {'0' (48), count=110}
+                {NOT, count=220}
+                  {'%' (37), count=110}
+          {NOT, count=1761}
+              {'P' (80), count=438}
+            {NOT, count=875}
+                {??? (253), count=219}
+              {NOT, count=437}
+                  {'D' (68), count=109}
+                {NOT, count=218}
+                  {'8' (56), count=109}
+        {NOT, count=3475}
+                {'G' (71), count=218}
+              {NOT, count=435}
+                  {'!' (33), count=109}
+                {NOT, count=217}
+                  {'f' (102), count=108}
+            {NOT, count=867}
+                  {'T' (84), count=108}
+                {NOT, count=216}
+                  {')' (41), count=108}
+              {NOT, count=432}
+                {'o' (111), count=216}
+          {NOT, count=1714}
+              {??? (255), count=424}
+            {NOT, count=847}
+                {??? (199), count=212}
+              {NOT, count=423}
+                {??? (218), count=211}
+    {NOT, count=13624}
+                  {'J' (74), count=105}
+                {NOT, count=208}
+                  {??? (144), count=103}
+              {NOT, count=416}
+                {??? (15), count=208}
+            {NOT, count=830}
+                {??? (195), count=207}
+              {NOT, count=414}
+                {??? (190), count=207}
+          {NOT, count=1654}
+              {??? (248), count=413}
+            {NOT, count=824}
+                {??? (237), count=206}
+              {NOT, count=411}
+                {??? (223), count=205}
+        {NOT, count=3275}
+                {'_' (95), count=205}
+              {NOT, count=409}
+                  {??? (156), count=102}
+                {NOT, count=204}
+                  {'b' (98), count=102}
+            {NOT, count=816}
+                {??? (246), count=204}
+              {NOT, count=407}
+                  {'"' (34), count=102}
+                {NOT, count=203}
+                  {??? (16), count=101}
+          {NOT, count=1621}
+                {??? (196), count=203}
+              {NOT, count=404}
+                {??? (181), count=201}
+            {NOT, count=805}
+                {??? (180), count=201}
+              {NOT, count=401}
+                {??? (191), count=200}
+      {NOT, count=6415}
+                {??? (227), count=199}
+              {NOT, count=398}
+                {??? (207), count=199}
+            {NOT, count=796}
+                {??? (197), count=199}
+              {NOT, count=398}
+                {??? (183), count=199}
+          {NOT, count=1589}
+                {'[' (91), count=199}
+              {NOT, count=397}
+                {??? (233), count=198}
+            {NOT, count=793}
+                {'}' (125), count=198}
+              {NOT, count=396}
+                {'<' (60), count=198}
+        {NOT, count=3140}
+                  {'p' (112), count=100}
+                {NOT, count=196}
+                  {??? (176), count=96}
+              {NOT, count=392}
+                {??? (245), count=196}
+            {NOT, count=783}
+                {??? (211), count=196}
+              {NOT, count=391}
+                {??? (244), count=195}
+          {NOT, count=1551}
+                {??? (234), count=195}
+              {NOT, count=386}
+                  {'B' (66), count=96}
+                {NOT, count=191}
+                  {'L' (76), count=95}
+            {NOT, count=768}
+                {'>' (62), count=191}
+              {NOT, count=382}
+                {'5' (53), count=191}
+{NOT, count=52405}
+                {??? (7), count=191}
+              {NOT, count=381}
+                {??? (224), count=190}
+            {NOT, count=761}
+                {??? (210), count=190}
+              {NOT, count=380}
+                {'^' (94), count=190}
+          {NOT, count=1517}
+                {??? (251), count=189}
+              {NOT, count=378}
+                {??? (167), count=189}
+            {NOT, count=756}
+                {??? (135), count=189}
+              {NOT, count=378}
+                {??? (21), count=189}
+        {NOT, count=3008}
+                {??? (198), count=188}
+              {NOT, count=376}
+                {??? (141), count=188}
+            {NOT, count=751}
+                {'{' (123), count=188}
+              {NOT, count=375}
+                {'~' (126), count=187}
+          {NOT, count=1491}
+                {??? (212), count=186}
+              {NOT, count=372}
+                {'u' (117), count=186}
+            {NOT, count=740}
+                {'m' (109), count=186}
+              {NOT, count=368}
+                {??? (247), count=182}
+      {NOT, count=5887}
+          {??? (20), count=1441}
+        {NOT, count=2879}
+                {??? (215), count=182}
+              {NOT, count=364}
+                {??? (173), count=182}
+            {NOT, count=724}
+                {??? (188), count=180}
+              {NOT, count=360}
+                {''' (39), count=180}
+          {NOT, count=1438}
+                {'w' (119), count=179}
+              {NOT, count=357}
+                {'i' (105), count=178}
+            {NOT, count=714}
+              {'\n' (10), count=357}
+    {NOT, count=11439}
+                {'g' (103), count=178}
+              {NOT, count=356}
+                {'Z' (90), count=178}
+            {NOT, count=709}
+                {??? (3), count=177}
+              {NOT, count=353}
+                  {'`' (96), count=92}
+                {NOT, count=176}
+                    {??? (152), count=83}
+                  {NOT, count=84}
+                    {EOF (256), count=1}
+          {NOT, count=1411}
+                {??? (186), count=176}
+              {NOT, count=351}
+                {??? (222), count=175}
+            {NOT, count=702}
+              {??? (241), count=351}
+        {NOT, count=2814}
+          {'(' (40), count=1403}
+      {NOT, count=5552}
+              {??? (5), count=350}
+            {NOT, count=697}
+                {'y' (121), count=174}
+              {NOT, count=347}
+                {??? (157), count=173}
+          {NOT, count=1383}
+                {??? (171), count=172}
+              {NOT, count=344}
+                {'=' (61), count=172}
+            {NOT, count=686}
+                {??? (185), count=171}
+              {NOT, count=342}
+                {'j' (106), count=171}
+        {NOT, count=2738}
+                {??? (221), count=170}
+              {NOT, count=340}
+                {??? (214), count=170}
+            {NOT, count=680}
+                {']' (93), count=170}
+              {NOT, count=340}
+                {'#' (35), count=170}
+          {NOT, count=1355}
+                {??? (231), count=169}
+              {NOT, count=338}
+                {??? (142), count=169}
+            {NOT, count=675}
+                {??? (29), count=169}
+              {NOT, count=337}
+                {??? (151), count=168}
+  {NOT, count=21585}
+              {??? (128), count=337}
+            {NOT, count=673}
+                {':' (58), count=168}
+              {NOT, count=336}
+                {'/' (47), count=168}
+          {NOT, count=1336}
+                {??? (154), count=167}
+              {NOT, count=333}
+                {??? (189), count=166}
+            {NOT, count=663}
+                {??? (250), count=165}
+              {NOT, count=330}
+                {??? (158), count=165}
+        {NOT, count=2645}
+                {??? (133), count=165}
+              {NOT, count=330}
+                {'c' (99), count=165}
+            {NOT, count=659}
+                {'-' (45), count=165}
+              {NOT, count=329}
+                {??? (131), count=164}
+          {NOT, count=1309}
+                {??? (232), count=163}
+              {NOT, count=326}
+                {'4' (52), count=163}
+            {NOT, count=650}
+                {??? (179), count=162}
+              {NOT, count=324}
+                {'V' (86), count=162}
+      {NOT, count=5193}
+                {'I' (73), count=162}
+              {NOT, count=324}
+                {??? (27), count=162}
+            {NOT, count=646}
+                {'z' (122), count=161}
+              {NOT, count=322}
+                {??? (26), count=161}
+          {NOT, count=1284}
+                {??? (194), count=160}
+              {NOT, count=320}
+                {'K' (75), count=160}
+            {NOT, count=638}
+              {'@' (64), count=318}
+        {NOT, count=2548}
+                {??? (140), count=159}
+              {NOT, count=317}
+                {??? (213), count=158}
+            {NOT, count=634}
+              {??? (240), count=317}
+          {NOT, count=1264}
+                {??? (163), count=158}
+              {NOT, count=316}
+                {??? (145), count=158}
+            {NOT, count=630}
+                {??? (243), count=157}
+              {NOT, count=314}
+                {??? (238), count=157}
+    {NOT, count=10146}
+          {'E' (69), count=1250}
+        {NOT, count=2498}
+          {??? (138), count=1248}
+      {NOT, count=4953}
+                {??? (209), count=157}
+              {NOT, count=313}
+                {'7' (55), count=156}
+            {NOT, count=625}
+              {??? (254), count=312}
+          {NOT, count=1242}
+                {??? (23), count=155}
+              {NOT, count=310}
+                {??? (17), count=155}
+            {NOT, count=617}
+              {??? (252), count=307}
+        {NOT, count=2455}
+                {??? (235), count=153}
+              {NOT, count=306}
+                {'v' (118), count=153}
+            {NOT, count=610}
+                {??? (239), count=152}
+              {NOT, count=304}
+                {'s' (115), count=152}
+          {NOT, count=1213}
+                {??? (149), count=151}
+              {NOT, count=302}
+                {??? (139), count=151}
+            {NOT, count=603}
+                {'$' (36), count=151}
+              {NOT, count=301}
+                {??? (184), count=150}
+
+B)uild enc.tree   C)ompress     VB) View binary
+E)ncode data      U)ncompress   VT) View text
+D)ecode data      F)ree tree    VS) View side-by-side
+Q)uit
+
+Your choice? q
+Exiting.

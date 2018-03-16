@@ -1,0 +1,13 @@
+c
+tomsawyer.txt
+
+u
+tomsawyer.huf
+tomsawyer-out.txt
+vs
+tomsawyer.txt
+tomsawyer-out.txt
+b
+f
+tomsawyer.txt
+q
