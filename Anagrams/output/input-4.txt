@@ -1,0 +1,20 @@
+dictionary.txt
+victoria kirst
+2
+marty stepp
+2
+y
+cynthia b lee
+2
+y
+keith schwarz
+2
+y
+mehran sahami
+2
+y
+eric roberts
+2
+
+
+

@@ -1,0 +1,11 @@
+dict2.txt
+donald trump
+3
+hillary clinton
+3
+bernie sanders
+3
+victoria kirst
+
+
+
